@@ -8,9 +8,9 @@ project_name: "ca-looker-development"
 # }
 
 constant: database_cnn {
-  value: "dev_test_conn"
+  value: "prod_test_conn"
 }
 
 constant: model_cnn {
-  value: "thelook_bq"
+  value: "prod_thelook_bq"
 }
