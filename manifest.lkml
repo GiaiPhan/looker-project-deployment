@@ -12,5 +12,5 @@ constant: database_cnn {
 }
 
 constant: model_cnn {
-  value: "thelook_bq"
+  value: "dev_thelook_bq"
 }
