@@ -5,7 +5,7 @@
   description: ''
   elements:
   - name: Count of Orders By Countries
-    title: Count of Orders By Countries Hello Giai Phan Development Final
+    title: Count of Orders By Countries Hello Giai Phan Development test
     model: "@{model_cnn}"
     explore: order_items
     type: looker_pie
