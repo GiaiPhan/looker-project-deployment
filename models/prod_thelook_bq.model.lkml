@@ -18,3 +18,5 @@ explore: order_items {
     sql_on: ${order_items.product_id} = ${products.id} ;;
   }
 }
+
+explore: users {}
