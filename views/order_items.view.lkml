@@ -114,7 +114,7 @@ view: order_items {
     type: sum
     value_format_name: usd
     sql: ${sale_price} ;;
-    filters: [users.country: "China"]
+    filters: [users_test.country: "China"]
     # drill_fields: [detail*]
   }
 

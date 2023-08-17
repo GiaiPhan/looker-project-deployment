@@ -4,11 +4,11 @@ include: "/views/*.view.lkml"                # include all views in the views/ f
 include: "/dashboards/*.dashboard.lookml"
 
 explore: order_items {
-  join: users {
+  join: users_test {
     view_label: "Users"
     type: left_outer
     relationship: many_to_one
-    sql_on: ${order_items.user_id} = ${users.id} ;;
+    sql_on: ${order_items.user_id} = ${users_test.id} ;;
   }
 
   join: products {
@@ -19,4 +19,4 @@ explore: order_items {
   }
 }
 
-explore: users {}
+explore: users_test {}

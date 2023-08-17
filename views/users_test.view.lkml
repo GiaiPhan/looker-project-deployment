@@ -1,4 +1,4 @@
-view: users {
+view: users_test {
   sql_table_name: `bigquery-public-data.thelook_ecommerce.users` ;;
 
   drill_fields: [id]

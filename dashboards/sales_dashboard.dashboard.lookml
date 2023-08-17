@@ -9,7 +9,7 @@
     model: "@{model_cnn}"
     explore: order_items
     type: looker_pie
-    fields: [users.country, order_items.count]
+    fields: [users_test.country, order_items.count]
     sorts: [order_items.count desc 0]
     limit: 500
     column_limit: 50
