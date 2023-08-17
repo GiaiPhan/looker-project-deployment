@@ -3,7 +3,7 @@ connection: "@{database_cnn}"
 include: "/views/*.view.lkml"                # include all views in the views/ folder in this project
 include: "/dashboards/*.dashboard.lookml"
 # include: "//ca_looker_prod_deployment/explores/aircraft_new.explore.lkml"
-include: "//ca_looker_prod_deployment/explores/users.explore.lkml"
+include: "//ca_looker_prod_deployment/explores/users_test.explore.lkml"
 include: "//ca_looker_prod_deployment/views/users_test.view.lkml"
 
 
